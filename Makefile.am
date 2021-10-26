@@ -33,9 +33,9 @@ EXTRA_DIST = autogen.sh \
 if COND_DOC
     MAYBE_DOC=doc
 endif
-SUBDIRS = src tests $(MAYBE_DOC)
+SUBDIRS = src $(MAYBE_DOC)
 
-DIST_SUBDIRS = src doc tests test-data
+DIST_SUBDIRS = src doc test-data
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = broadvoice.pc
