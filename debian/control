@@ -1,0 +1,35 @@
+Source: broadvoice
+Priority: extra
+Maintainer: Tzafrir Cohen <tzafrir.cohen@xorcom.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libaudiofile-dev, doxygen
+Standards-Version: 3.8.3
+Section: libs
+Vcs-Git: git://gitorious.org/broadvoice/broadvoice.git
+Vcs-Browser: http://gitorious.org/broadvoice/broadvoice
+Homepage: http://www.broadcom.com/support/broadvoice/
+
+Package: libbroadvoice1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: library to support BroadVoice16/32 codecs
+ This package contains the BroadVoice 16 and 32 low bit rate speech codecs.
+ .
+ This package contains the shared library.
+
+Package: libbroadvoice-dev
+Section: libdevel
+Architecture: any
+Depends: libbroadvoice1 (= ${binary:Version})
+Description: library to support BroadVoice16/32 codecs - development headers
+ This package contains the BroadVoice 16 and 32 low bit rate speech codecs.
+ .
+ This package contains the static library and development headers.
+
+Package: libbroadvoice-doc
+Section: doc
+Architecture: all
+Description: library to support BroadVoice16/32 codecs - documentation
+ This package contains the BroadVoice 16 and 32 low bit rate speech codecs.
+ .
+ This package contains the API documentation

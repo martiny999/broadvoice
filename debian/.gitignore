@@ -1,0 +1,9 @@
+*.debhelper.log
+*.substvars
+*.post*.debhelper
+stamp-*
+files
+libbroadvoice-dev/
+libbroadvoice1/
+libbroadvoice-doc/
+tmp/

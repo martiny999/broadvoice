@@ -1,0 +1,4 @@
+debian/tmp/usr/include
+debian/tmp/usr/lib/libbroadvoice.so
+debian/tmp/usr/lib/libbroadvoice.a
+debian/tmp/usr/lib/pkgconfig/broadvoice.pc

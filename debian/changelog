@@ -1,0 +1,18 @@
+broadvoice (0.0.3-1) UNRELEASED; urgency=medium
+
+  * Fix build for Ubuntu 14.04 64bits
+
+ -- Lauro Ramos Venancio <lauro.venancio@openbossa.org>  Tue, 16 Sep 2014 15:03:49 +0800
+
+broadvoice (0.0.2-1) unstable; urgency=low
+
+  * Make the API simpler
+  * Fix symbols visibility
+
+ -- Lauro Ramos Venancio <lauro.venancio@openbossa.org>  Thu, 08 Nov 2012 17:52:25 -0300
+
+broadvoice (0.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Tzafrir Cohen <tzafrir.cohen@xorcom.com>  Sat, 21 Nov 2009 01:42:04 +0200

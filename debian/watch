@@ -1,0 +1,6 @@
+# See uscan(1) for format
+
+version=3
+
+http://soft-switch.org/downloads/snapshots/voipcodecs/broadvoice-(.*).tar.gz
+#http://soft-switch.org/downloads/voipcodecs/broadvoice-(.*).tar.gz
