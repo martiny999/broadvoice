@@ -379,8 +379,8 @@ EXTRA_DIST = autogen.sh \
              wrapper.xsl
 
 @COND_DOC_TRUE@MAYBE_DOC = doc
-SUBDIRS = src tests $(MAYBE_DOC)
-DIST_SUBDIRS = src doc tests test-data
+SUBDIRS = src $(MAYBE_DOC)
+DIST_SUBDIRS = src doc test-data
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = broadvoice.pc
 all: all-recursive
